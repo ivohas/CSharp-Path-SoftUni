@@ -1,5 +1,1 @@
-* linguist-vendored
-*.tsql linguist-vendored=false
-*.tsql linguist-detectable=false
-*.sql linguist-vendored=false
-*.sql linguist-detectable=false
+
