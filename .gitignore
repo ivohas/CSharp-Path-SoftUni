@@ -16,3 +16,4 @@ C\# Web/ASP.NET Fundamentals/ForumApp-Workshop/FInal Solution/Forum.App/wwwroot/
 *.map
 *.editorconfig
 *.props
+*.targets
