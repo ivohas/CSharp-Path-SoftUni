@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32126.317
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercise Func Pr", "Exercise Func Pr\Exercise Func Pr.csproj", "{9FB4184F-3FEF-4900-8A82-07290E2B68BB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aplied aritmetics", "Aplied aritmetics\Aplied aritmetics.csproj", "{65DF2642-7D0C-410E-BB5C-DDA54195FD9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "reverse and exclude", "reverse and exclude\reverse and exclude.csproj", "{B6FA2195-0BD6-4049-A404-FCD7B83A0F59}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pridicate for Names", "Pridicate for Names\Pridicate for Names.csproj", "{7CF5278B-26EA-47D2-B3EA-6E2F338B5497}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "List of Predicats", "List of Predicats\List of Predicats.csproj", "{A566C66F-9805-4330-A077-5CB8A9165B00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Predicate party", "Predicate party\Predicate party.csproj", "{92297117-1E82-4B08-8BD0-23BD6D0015C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "New", "New\New.csproj", "{D7BCCE2D-D0EA-434B-AB56-B290C4A8B982}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9FB4184F-3FEF-4900-8A82-07290E2B68BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FB4184F-3FEF-4900-8A82-07290E2B68BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FB4184F-3FEF-4900-8A82-07290E2B68BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FB4184F-3FEF-4900-8A82-07290E2B68BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65DF2642-7D0C-410E-BB5C-DDA54195FD9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65DF2642-7D0C-410E-BB5C-DDA54195FD9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65DF2642-7D0C-410E-BB5C-DDA54195FD9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65DF2642-7D0C-410E-BB5C-DDA54195FD9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6FA2195-0BD6-4049-A404-FCD7B83A0F59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6FA2195-0BD6-4049-A404-FCD7B83A0F59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6FA2195-0BD6-4049-A404-FCD7B83A0F59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6FA2195-0BD6-4049-A404-FCD7B83A0F59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7CF5278B-26EA-47D2-B3EA-6E2F338B5497}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CF5278B-26EA-47D2-B3EA-6E2F338B5497}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7CF5278B-26EA-47D2-B3EA-6E2F338B5497}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CF5278B-26EA-47D2-B3EA-6E2F338B5497}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A566C66F-9805-4330-A077-5CB8A9165B00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A566C66F-9805-4330-A077-5CB8A9165B00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A566C66F-9805-4330-A077-5CB8A9165B00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A566C66F-9805-4330-A077-5CB8A9165B00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92297117-1E82-4B08-8BD0-23BD6D0015C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92297117-1E82-4B08-8BD0-23BD6D0015C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92297117-1E82-4B08-8BD0-23BD6D0015C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92297117-1E82-4B08-8BD0-23BD6D0015C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7BCCE2D-D0EA-434B-AB56-B290C4A8B982}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7BCCE2D-D0EA-434B-AB56-B290C4A8B982}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7BCCE2D-D0EA-434B-AB56-B290C4A8B982}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7BCCE2D-D0EA-434B-AB56-B290C4A8B982}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {56BF7FFC-0B8F-46E6-A0A3-F9A149249698}
+	EndGlobalSection
+EndGlobal
