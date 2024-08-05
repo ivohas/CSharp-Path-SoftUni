@@ -1,0 +1,47 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Perfumes", "Perfumes\Perfumes.csproj", "{70DF7DD4-9314-47FA-AB86-9082556F4061}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{CA99531E-A27E-421C-94F6-7AB9542ED3C6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Data", "Data", "{E3A5FAEC-45D7-4325-B89B-B823071AC7EE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{AE03E4DD-026E-4F64-961C-36B625FD2765}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Perfumes.Common", "Perfumes.Common\Perfumes.Common.csproj", "{027D80BB-361B-4331-9C23-B4FCA04F4CA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Perfumes.Web.Infrastructer", "Perfumes.Web.Infrastructer\Perfumes.Web.Infrastructer.csproj", "{081D4A30-469C-402E-834C-BDC15C9439BD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{70DF7DD4-9314-47FA-AB86-9082556F4061}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70DF7DD4-9314-47FA-AB86-9082556F4061}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70DF7DD4-9314-47FA-AB86-9082556F4061}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70DF7DD4-9314-47FA-AB86-9082556F4061}.Release|Any CPU.Build.0 = Release|Any CPU
+		{027D80BB-361B-4331-9C23-B4FCA04F4CA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{027D80BB-361B-4331-9C23-B4FCA04F4CA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{027D80BB-361B-4331-9C23-B4FCA04F4CA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{027D80BB-361B-4331-9C23-B4FCA04F4CA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{081D4A30-469C-402E-834C-BDC15C9439BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{081D4A30-469C-402E-834C-BDC15C9439BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{081D4A30-469C-402E-834C-BDC15C9439BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{081D4A30-469C-402E-834C-BDC15C9439BD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{70DF7DD4-9314-47FA-AB86-9082556F4061} = {CA99531E-A27E-421C-94F6-7AB9542ED3C6}
+		{081D4A30-469C-402E-834C-BDC15C9439BD} = {CA99531E-A27E-421C-94F6-7AB9542ED3C6}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {24AA4DF6-7826-4BBB-8C3A-090B33E0CAEB}
+	EndGlobalSection
+EndGlobal
