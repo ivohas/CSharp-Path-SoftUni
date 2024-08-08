@@ -1,0 +1,55 @@
+﻿@{
+    ViewBag.Title = "Teacher Form";
+}
+
+<h2>Teacher Information</h2>
+
+@using (Html.BeginForm("Submit", "Teacher", FormMethod.Post))
+{
+    <table id="teacherTable" class="table">
+        <thead>
+            <tr>
+                <th>Teacher Name</th>
+                <th>Needed Hours</th>
+                <th>Subject</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td><input type="text" name="TeacherName[0]" /></td>
+                <td><input type="number" name="NeededHours[0]" /></td>
+                <td><input type="text" name="Subject[0]" /></td>
+                <td><button type="button" class="btn btn-danger" onclick="removeRow(this)">Remove</button></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <button type="button" class="btn btn-primary" onclick="addRow()">Add Teacher</button>
+    <button type="submit" class="btn btn-success">Submit</button>
+}
+
+<script>
+    var rowCount = 1;
+
+    function addRow() {
+        var table = document.getElementById("teacherTable").getElementsByTagName('tbody')[0];
+        var newRow = table.insertRow(table.rows.length);
+        var cell1 = newRow.insertCell(0);
+        var cell2 = newRow.insertCell(1);
+        var cell3 = newRow.insertCell(2);
+        var cell4 = newRow.insertCell(3);
+
+        cell1.innerHTML = '<input type="text" name="TeacherName[' + rowCount + ']" />';
+        cell2.innerHTML = '<input type="text" name="NeededHours[' + rowCount + ']" />';
+        cell3.innerHTML = '<input type="text" name="Subject[' + rowCount + ']" />';
+        cell4.innerHTML = '<button type="button" class="btn btn-danger" onclick="removeRow(this)">Remove</button>';
+
+        rowCount++;
+    }
+
+    function removeRow(button) {
+        var row = button.parentNode.parentNode;
+        row.parentNode.removeChild(row);
+    }
+</script>
