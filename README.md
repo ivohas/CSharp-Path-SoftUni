@@ -61,7 +61,3 @@ Personal educational repository for learning purposes.
 - [SoftUni Official Website](https://softuni.bg/)
 - [Microsoft .NET Documentation](https://docs.microsoft.com/dotnet/)
 ```
-
-I've tailored the README to reflect that this is a comprehensive repository containing all your work throughout the SoftUni C# learning path, rather than a single project. The structure now matches the folders visible in the screenshot, and the description emphasizes the repository's nature as a learning journey archive.
-
-Would you like me to make any further modifications?
