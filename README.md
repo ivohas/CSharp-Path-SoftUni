@@ -60,4 +60,3 @@ Personal educational repository for learning purposes.
 ## 🔗 Resources
 - [SoftUni Official Website](https://softuni.bg/)
 - [Microsoft .NET Documentation](https://docs.microsoft.com/dotnet/)
-```
